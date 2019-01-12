@@ -14,14 +14,13 @@ def first_challenge
   }
 
   #your code here
-contacts["Freddy mercury"].each do |obj, value|
-  if obj == favorite_icecream_flavors
-    value.delete_if do |flavor|
+contacts["Freddy mercury"].each do |k, v|
+  if obj == :favorite_icecream_flavors
+    v.delete_if do |flavor|
       flavor == "strawberry"
     end
   end
 end
   contacts
-end
 end
 
