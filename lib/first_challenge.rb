@@ -13,7 +13,6 @@ def first_challenge
     }
   }
 
-  #your code here
 contacts["Freddy mercury"].each do |k, v|
   if k == favorite_icecream_flavors
     v.delete_if do |flavor|
@@ -21,6 +20,6 @@ contacts["Freddy mercury"].each do |k, v|
     end
   end
 end
-  return contacts
+  contacts
 end
 
