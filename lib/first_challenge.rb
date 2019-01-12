@@ -21,6 +21,6 @@ contacts["Freddy mercury"].each do |k, v|
     end
   end
 end
-  puts contacts
+  return contacts
 end
 
