@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-contacts["Freddy mercury"][:favorite_icecream_flavors].delete(0)
+contacts["Freddy mercury"][favorite_icecream_flavors:].delete(0)
 
   #remember to return your newly altered contacts hash!
   contacts
